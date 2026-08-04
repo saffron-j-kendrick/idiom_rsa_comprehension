@@ -1,0 +1,181 @@
+model,model_title,layer,representation,Representation,Condition,same_relation_group_rdm_corr,same_relation_group_rdm_std
+openai-community/gpt2-medium,GPT-2 Medium,1,standard,Neutral,No Ablation,0.1449137674618944,0.5441900928378404
+openai-community/gpt2-medium,GPT-2 Medium,1,standard,Neutral,Idiomaticity Ablation,0.17941704542901213,0.531126386178693
+openai-community/gpt2-medium,GPT-2 Medium,1,standard,Neutral,Random Ablation,0.196668684412571,0.5521710397538585
+openai-community/gpt2-medium,GPT-2 Medium,2,standard,Neutral,No Ablation,0.18976802881914745,0.5375761297138252
+openai-community/gpt2-medium,GPT-2 Medium,2,standard,Neutral,Idiomaticity Ablation,0.19321835661585923,0.5938574464184707
+openai-community/gpt2-medium,GPT-2 Medium,2,standard,Neutral,Random Ablation,0.11041048949477669,0.5404583592611351
+openai-community/gpt2-medium,GPT-2 Medium,3,standard,Neutral,No Ablation,0.2104699955994181,0.571328860348107
+openai-community/gpt2-medium,GPT-2 Medium,3,standard,Neutral,Idiomaticity Ablation,0.1345627840717591,0.5962082569994195
+openai-community/gpt2-medium,GPT-2 Medium,3,standard,Neutral,Random Ablation,0.2104699955994181,0.634137960053609
+openai-community/gpt2-medium,GPT-2 Medium,4,standard,Neutral,No Ablation,0.26567524034680645,0.5868702298350691
+openai-community/gpt2-medium,GPT-2 Medium,4,standard,Neutral,Idiomaticity Ablation,0.1483640952586062,0.6012981987412933
+openai-community/gpt2-medium,GPT-2 Medium,4,standard,Neutral,Random Ablation,0.2104699955994181,0.6181674145253473
+openai-community/gpt2-medium,GPT-2 Medium,5,standard,Neutral,No Ablation,0.3036288461106359,0.6204453085908388
+openai-community/gpt2-medium,GPT-2 Medium,5,standard,Neutral,Idiomaticity Ablation,0.16216540644545327,0.6503753495006522
+openai-community/gpt2-medium,GPT-2 Medium,5,standard,Neutral,Random Ablation,0.2691255681435182,0.628262911299311
+openai-community/gpt2-medium,GPT-2 Medium,6,standard,Neutral,No Ablation,0.40368835221527727,0.5624245981208759
+openai-community/gpt2-medium,GPT-2 Medium,6,standard,Neutral,Idiomaticity Ablation,0.20011901220928277,0.6600505031182591
+openai-community/gpt2-medium,GPT-2 Medium,6,standard,Neutral,Random Ablation,0.37263540204487133,0.5526559249918268
+openai-community/gpt2-medium,GPT-2 Medium,7,standard,Neutral,No Ablation,0.43129097458897153,0.5558669762075233
+openai-community/gpt2-medium,GPT-2 Medium,7,standard,Neutral,Idiomaticity Ablation,0.2794765515336535,0.6609787115655521
+openai-community/gpt2-medium,GPT-2 Medium,7,standard,Neutral,Random Ablation,0.3691850742481596,0.5758120559779241
+openai-community/gpt2-medium,GPT-2 Medium,8,standard,Neutral,No Ablation,0.5209994973034776,0.5021264306735432
+openai-community/gpt2-medium,GPT-2 Medium,8,standard,Neutral,Idiomaticity Ablation,0.3381321240777536,0.6221697823707274
+openai-community/gpt2-medium,GPT-2 Medium,8,standard,Neutral,Random Ablation,0.45889359696266563,0.522482626733268
+openai-community/gpt2-medium,GPT-2 Medium,9,standard,Neutral,No Ablation,0.5348008084903246,0.5186406224333913
+openai-community/gpt2-medium,GPT-2 Medium,9,standard,Neutral,Idiomaticity Ablation,0.3691850742481596,0.6036693355361583
+openai-community/gpt2-medium,GPT-2 Medium,9,standard,Neutral,Random Ablation,0.4795955637429363,0.5035469430048444
+openai-community/gpt2-medium,GPT-2 Medium,10,standard,Neutral,No Ablation,0.5624034308640188,0.46459147441084
+openai-community/gpt2-medium,GPT-2 Medium,10,standard,Neutral,Idiomaticity Ablation,0.4312909745889714,0.5647903108571317
+openai-community/gpt2-medium,GPT-2 Medium,10,standard,Neutral,Random Ablation,0.5106485139133422,0.4772939595359697
+openai-community/gpt2-medium,GPT-2 Medium,11,standard,Neutral,No Ablation,0.6176086756114072,0.41831578411302545
+openai-community/gpt2-medium,GPT-2 Medium,11,standard,Neutral,Idiomaticity Ablation,0.48649621933635984,0.4983186014704134
+openai-community/gpt2-medium,GPT-2 Medium,11,standard,Neutral,Random Ablation,0.5140988417100539,0.4788254478657224
+openai-community/gpt2-medium,GPT-2 Medium,12,standard,Neutral,No Ablation,0.6141583478146954,0.41912607490666426
+openai-community/gpt2-medium,GPT-2 Medium,12,standard,Neutral,Idiomaticity Ablation,0.44509228577581855,0.5068459895696692
+openai-community/gpt2-medium,GPT-2 Medium,12,standard,Neutral,Random Ablation,0.5417014640837482,0.47221615308891673
+openai-community/gpt2-medium,GPT-2 Medium,13,standard,Neutral,No Ablation,0.6590126091719485,0.3770025893557662
+openai-community/gpt2-medium,GPT-2 Medium,13,standard,Neutral,Idiomaticity Ablation,0.4761452359462245,0.5103220271833968
+openai-community/gpt2-medium,GPT-2 Medium,13,standard,Neutral,Random Ablation,0.5555027752705952,0.46978971993050367
+openai-community/gpt2-medium,GPT-2 Medium,14,standard,Neutral,No Ablation,0.6521119535785248,0.4102699459763396
+openai-community/gpt2-medium,GPT-2 Medium,14,standard,Neutral,Idiomaticity Ablation,0.5106485139133422,0.5188815811320492
+openai-community/gpt2-medium,GPT-2 Medium,14,standard,Neutral,Random Ablation,0.5727544142541542,0.4298947822543604
+openai-community/gpt2-medium,GPT-2 Medium,15,standard,Neutral,No Ablation,0.6417609701883895,0.39587155203965557
+openai-community/gpt2-medium,GPT-2 Medium,15,standard,Neutral,Idiomaticity Ablation,0.5106485139133422,0.5188815811320492
+openai-community/gpt2-medium,GPT-2 Medium,15,standard,Neutral,Random Ablation,0.5865557254410011,0.4345221787314474
+openai-community/gpt2-medium,GPT-2 Medium,16,standard,Neutral,No Ablation,0.6245093312048307,0.4044249297577041
+openai-community/gpt2-medium,GPT-2 Medium,16,standard,Neutral,Idiomaticity Ablation,0.5313504806936129,0.5145964669617582
+openai-community/gpt2-medium,GPT-2 Medium,16,standard,Neutral,Random Ablation,0.5796550698475776,0.41713307229228436
+openai-community/gpt2-medium,GPT-2 Medium,17,standard,Neutral,No Ablation,0.6383106423916779,0.39693768252651934
+openai-community/gpt2-medium,GPT-2 Medium,17,standard,Neutral,Idiomaticity Ablation,0.5382511362870365,0.4768947173418589
+openai-community/gpt2-medium,GPT-2 Medium,17,standard,Neutral,Random Ablation,0.590006053237713,0.4120072814890534
+openai-community/gpt2-medium,GPT-2 Medium,18,standard,Neutral,No Ablation,0.6176086756114072,0.395495469843419
+openai-community/gpt2-medium,GPT-2 Medium,18,standard,Neutral,Idiomaticity Ablation,0.5451517918804599,0.4643992535164831
+openai-community/gpt2-medium,GPT-2 Medium,18,standard,Neutral,Random Ablation,0.590006053237713,0.4306556463281142
+openai-community/gpt2-medium,GPT-2 Medium,19,standard,Neutral,No Ablation,0.6107080200179834,0.3935642986131455
+openai-community/gpt2-medium,GPT-2 Medium,19,standard,Neutral,Idiomaticity Ablation,0.5555027752705953,0.4415745636221536
+openai-community/gpt2-medium,GPT-2 Medium,19,standard,Neutral,Random Ablation,0.6038073644245601,0.42137812450283163
+openai-community/gpt2-medium,GPT-2 Medium,20,standard,Neutral,No Ablation,0.6245093312048307,0.35353655431665804
+openai-community/gpt2-medium,GPT-2 Medium,20,standard,Neutral,Idiomaticity Ablation,0.558953103067307,0.4444900770224557
+openai-community/gpt2-medium,GPT-2 Medium,20,standard,Neutral,Random Ablation,0.5969067088311366,0.39837467408506405
+openai-community/gpt2-medium,GPT-2 Medium,21,standard,Neutral,No Ablation,0.6245093312048307,0.3432859421753797
+openai-community/gpt2-medium,GPT-2 Medium,21,standard,Neutral,Idiomaticity Ablation,0.5658537586607306,0.44539976692961175
+openai-community/gpt2-medium,GPT-2 Medium,21,standard,Neutral,Random Ablation,0.6003570366278483,0.3976717957598417
+openai-community/gpt2-medium,GPT-2 Medium,22,standard,Neutral,No Ablation,0.6210590034081189,0.3545621041711674
+openai-community/gpt2-medium,GPT-2 Medium,22,standard,Neutral,Idiomaticity Ablation,0.5693040864574423,0.43691287134033624
+openai-community/gpt2-medium,GPT-2 Medium,22,standard,Neutral,Random Ablation,0.6038073644245601,0.3933222355173694
+openai-community/gpt2-medium,GPT-2 Medium,23,standard,Neutral,No Ablation,0.6417609701883896,0.35193343526460075
+openai-community/gpt2-medium,GPT-2 Medium,23,standard,Neutral,Idiomaticity Ablation,0.5796550698475775,0.450079358081915
+openai-community/gpt2-medium,GPT-2 Medium,23,standard,Neutral,Random Ablation,0.590006053237713,0.4388703030020862
+openai-community/gpt2-medium,GPT-2 Medium,24,standard,Neutral,No Ablation,0.08970852271450606,0.5416465197718457
+openai-community/gpt2-medium,GPT-2 Medium,24,standard,Neutral,Idiomaticity Ablation,0.07590721152765897,0.5450644348104526
+openai-community/gpt2-medium,GPT-2 Medium,24,standard,Neutral,Random Ablation,0.1483640952586062,0.5594533896922024
+Qwen/Qwen2.5-3B,Qwen2.5-3B,1,standard,Neutral,No Ablation,0.07590721152765897,0.6082371091543011
+Qwen/Qwen2.5-3B,Qwen2.5-3B,1,standard,Neutral,Idiomaticity Ablation,0.05175491695067658,0.5107767194605263
+Qwen/Qwen2.5-3B,Qwen2.5-3B,1,standard,Neutral,Random Ablation,0.0034503277967117643,0.5365121043324542
+Qwen/Qwen2.5-3B,Qwen2.5-3B,2,standard,Neutral,No Ablation,0.20356934000599453,0.5934062288019503
+Qwen/Qwen2.5-3B,Qwen2.5-3B,2,standard,Neutral,Idiomaticity Ablation,0.024152294576982418,0.501557099251445
+Qwen/Qwen2.5-3B,Qwen2.5-3B,2,standard,Neutral,Random Ablation,0.04830458915396481,0.5546770832355225
+Qwen/Qwen2.5-3B,Qwen2.5-3B,3,standard,Neutral,No Ablation,0.2691255681435182,0.5415585972779995
+Qwen/Qwen2.5-3B,Qwen2.5-3B,3,standard,Neutral,Idiomaticity Ablation,0.024152294576982404,0.538638053224011
+Qwen/Qwen2.5-3B,Qwen2.5-3B,3,standard,Neutral,Random Ablation,-0.04140393356054126,0.543533413350616
+Qwen/Qwen2.5-3B,Qwen2.5-3B,4,standard,Neutral,No Ablation,0.2829268793303653,0.5437523946307425
+Qwen/Qwen2.5-3B,Qwen2.5-3B,4,standard,Neutral,Idiomaticity Ablation,0.12766212847833555,0.4871075954281657
+Qwen/Qwen2.5-3B,Qwen2.5-3B,4,standard,Neutral,Random Ablation,-0.04140393356054126,0.5355904618802906
+Qwen/Qwen2.5-3B,Qwen2.5-3B,5,standard,Neutral,No Ablation,0.32088048509419476,0.4948665043654271
+Qwen/Qwen2.5-3B,Qwen2.5-3B,5,standard,Neutral,Idiomaticity Ablation,0.13111245627504733,0.47804163994761956
+Qwen/Qwen2.5-3B,Qwen2.5-3B,5,standard,Neutral,Random Ablation,-0.02070196678027063,0.5287451451989216
+Qwen/Qwen2.5-3B,Qwen2.5-3B,6,standard,Neutral,No Ablation,0.3657347464514478,0.5005235354344584
+Qwen/Qwen2.5-3B,Qwen2.5-3B,6,standard,Neutral,Idiomaticity Ablation,0.13111245627504733,0.5084523670156424
+Qwen/Qwen2.5-3B,Qwen2.5-3B,6,standard,Neutral,Random Ablation,-0.04830458915396481,0.5416465197718457
+Qwen/Qwen2.5-3B,Qwen2.5-3B,7,standard,Neutral,No Ablation,0.2898275349237888,0.4945416348210014
+Qwen/Qwen2.5-3B,Qwen2.5-3B,7,standard,Neutral,Idiomaticity Ablation,0.12766212847833555,0.4707010981605247
+Qwen/Qwen2.5-3B,Qwen2.5-3B,7,standard,Neutral,Random Ablation,-0.06210590034081189,0.5375872022286245
+Qwen/Qwen2.5-3B,Qwen2.5-3B,8,standard,Neutral,No Ablation,0.38298638543500657,0.45170312627401016
+Qwen/Qwen2.5-3B,Qwen2.5-3B,8,standard,Neutral,Idiomaticity Ablation,0.0724568837309472,0.4867164031988826
+Qwen/Qwen2.5-3B,Qwen2.5-3B,8,standard,Neutral,Random Ablation,-0.07935753932437076,0.5399625207452124
+Qwen/Qwen2.5-3B,Qwen2.5-3B,9,standard,Neutral,No Ablation,0.42784064679225964,0.49694303592301303
+Qwen/Qwen2.5-3B,Qwen2.5-3B,9,standard,Neutral,Idiomaticity Ablation,0.04830458915396481,0.47863894335421364
+Qwen/Qwen2.5-3B,Qwen2.5-3B,9,standard,Neutral,Random Ablation,-0.06900655593423544,0.5407226205560042
+Qwen/Qwen2.5-3B,Qwen2.5-3B,10,standard,Neutral,No Ablation,0.469244580352801,0.42906320990646374
+Qwen/Qwen2.5-3B,Qwen2.5-3B,10,standard,Neutral,Idiomaticity Ablation,0.010350983390135316,0.5006067746816287
+Qwen/Qwen2.5-3B,Qwen2.5-3B,10,standard,Neutral,Random Ablation,-0.06555622813752367,0.5457519932123366
+Qwen/Qwen2.5-3B,Qwen2.5-3B,11,standard,Neutral,No Ablation,0.5796550698475775,0.4205438655564279
+Qwen/Qwen2.5-3B,Qwen2.5-3B,11,standard,Neutral,Idiomaticity Ablation,0.05865557254410012,0.4871075954281658
+Qwen/Qwen2.5-3B,Qwen2.5-3B,11,standard,Neutral,Random Ablation,-0.0862581949177943,0.5481027884135117
+Qwen/Qwen2.5-3B,Qwen2.5-3B,12,standard,Neutral,No Ablation,0.6452112979851014,0.392958861290424
+Qwen/Qwen2.5-3B,Qwen2.5-3B,12,standard,Neutral,Idiomaticity Ablation,0.02070196678027063,0.49091750834534315
+Qwen/Qwen2.5-3B,Qwen2.5-3B,12,standard,Neutral,Random Ablation,-0.07935753932437076,0.541283747435756
+Qwen/Qwen2.5-3B,Qwen2.5-3B,13,standard,Neutral,No Ablation,0.6417609701883896,0.40479271591413657
+Qwen/Qwen2.5-3B,Qwen2.5-3B,13,standard,Neutral,Idiomaticity Ablation,0.05175491695067658,0.4908083711010411
+Qwen/Qwen2.5-3B,Qwen2.5-3B,13,standard,Neutral,Random Ablation,-0.09315885051121783,0.5417234402481453
+Qwen/Qwen2.5-3B,Qwen2.5-3B,14,standard,Neutral,No Ablation,0.6831649037489309,0.32579572916607913
+Qwen/Qwen2.5-3B,Qwen2.5-3B,14,standard,Neutral,Idiomaticity Ablation,0.07590721152765897,0.5263983644496231
+Qwen/Qwen2.5-3B,Qwen2.5-3B,14,standard,Neutral,Random Ablation,-0.06900655593423544,0.5459809869356609
+Qwen/Qwen2.5-3B,Qwen2.5-3B,15,standard,Neutral,No Ablation,0.6866152315456426,0.3305658928622394
+Qwen/Qwen2.5-3B,Qwen2.5-3B,15,standard,Neutral,Idiomaticity Ablation,-0.010350983390135312,0.5020315869402187
+Qwen/Qwen2.5-3B,Qwen2.5-3B,15,standard,Neutral,Random Ablation,-0.0724568837309472,0.5474942922076906
+Qwen/Qwen2.5-3B,Qwen2.5-3B,16,standard,Neutral,No Ablation,0.6866152315456426,0.35954667224688586
+Qwen/Qwen2.5-3B,Qwen2.5-3B,16,standard,Neutral,Idiomaticity Ablation,-0.02760262237369417,0.5147352532636374
+Qwen/Qwen2.5-3B,Qwen2.5-3B,16,standard,Neutral,Random Ablation,-0.07590721152765897,0.5463733243157187
+Qwen/Qwen2.5-3B,Qwen2.5-3B,17,standard,Neutral,No Ablation,0.6935158871390662,0.33556987775594954
+Qwen/Qwen2.5-3B,Qwen2.5-3B,17,standard,Neutral,Idiomaticity Ablation,0.03450327796711772,0.4798313195677157
+Qwen/Qwen2.5-3B,Qwen2.5-3B,17,standard,Neutral,Random Ablation,-0.06900655593423544,0.5433581647846063
+Qwen/Qwen2.5-3B,Qwen2.5-3B,18,standard,Neutral,No Ablation,0.6831649037489309,0.32579572916607913
+Qwen/Qwen2.5-3B,Qwen2.5-3B,18,standard,Neutral,Idiomaticity Ablation,0.03450327796711772,0.43942603256434204
+Qwen/Qwen2.5-3B,Qwen2.5-3B,18,standard,Neutral,Random Ablation,-0.06555622813752367,0.5457519932123366
+Qwen/Qwen2.5-3B,Qwen2.5-3B,19,standard,Neutral,No Ablation,0.6693635925620838,0.35730472522297646
+Qwen/Qwen2.5-3B,Qwen2.5-3B,19,standard,Neutral,Idiomaticity Ablation,0.044854261357253025,0.4900315830443508
+Qwen/Qwen2.5-3B,Qwen2.5-3B,19,standard,Neutral,Random Ablation,-0.055205244747388346,0.5316640543300505
+Qwen/Qwen2.5-3B,Qwen2.5-3B,20,standard,Neutral,No Ablation,0.7038668705292016,0.3277629805645712
+Qwen/Qwen2.5-3B,Qwen2.5-3B,20,standard,Neutral,Idiomaticity Ablation,0.13111245627504733,0.48250339253680263
+Qwen/Qwen2.5-3B,Qwen2.5-3B,20,standard,Neutral,Random Ablation,-0.06555622813752367,0.5325030739906803
+Qwen/Qwen2.5-3B,Qwen2.5-3B,21,standard,Neutral,No Ablation,0.6417609701883896,0.3904210181695799
+Qwen/Qwen2.5-3B,Qwen2.5-3B,21,standard,Neutral,Idiomaticity Ablation,0.09315885051121783,0.5201991376935787
+Qwen/Qwen2.5-3B,Qwen2.5-3B,21,standard,Neutral,Random Ablation,-0.0724568837309472,0.5329500110570544
+Qwen/Qwen2.5-3B,Qwen2.5-3B,22,standard,Neutral,No Ablation,0.6417609701883895,0.3976717957598417
+Qwen/Qwen2.5-3B,Qwen2.5-3B,22,standard,Neutral,Idiomaticity Ablation,0.09315885051121783,0.5034523668772308
+Qwen/Qwen2.5-3B,Qwen2.5-3B,22,standard,Neutral,Random Ablation,-0.06210590034081189,0.538914252389535
+Qwen/Qwen2.5-3B,Qwen2.5-3B,23,standard,Neutral,No Ablation,0.6762642481555072,0.35830287799702704
+Qwen/Qwen2.5-3B,Qwen2.5-3B,23,standard,Neutral,Idiomaticity Ablation,0.10005950610464139,0.4788254478657224
+Qwen/Qwen2.5-3B,Qwen2.5-3B,23,standard,Neutral,Random Ablation,-0.055205244747388346,0.5343442799579777
+Qwen/Qwen2.5-3B,Qwen2.5-3B,24,standard,Neutral,No Ablation,0.6624629369686602,0.3737837419073839
+Qwen/Qwen2.5-3B,Qwen2.5-3B,24,standard,Neutral,Idiomaticity Ablation,0.09660917830792962,0.47579507393514753
+Qwen/Qwen2.5-3B,Qwen2.5-3B,24,standard,Neutral,Random Ablation,-0.055205244747388346,0.5383395989610313
+Qwen/Qwen2.5-3B,Qwen2.5-3B,25,standard,Neutral,No Ablation,0.6555622813752368,0.3608851551921959
+Qwen/Qwen2.5-3B,Qwen2.5-3B,25,standard,Neutral,Idiomaticity Ablation,0.09660917830792962,0.5270763927643923
+Qwen/Qwen2.5-3B,Qwen2.5-3B,25,standard,Neutral,Random Ablation,-0.05175491695067658,0.5433033880149944
+Qwen/Qwen2.5-3B,Qwen2.5-3B,26,standard,Neutral,No Ablation,0.6969662149357778,0.3337378497877525
+Qwen/Qwen2.5-3B,Qwen2.5-3B,26,standard,Neutral,Idiomaticity Ablation,0.06555622813752367,0.5119872580259712
+Qwen/Qwen2.5-3B,Qwen2.5-3B,26,standard,Neutral,Random Ablation,-0.06210590034081189,0.5362568680878863
+Qwen/Qwen2.5-3B,Qwen2.5-3B,27,standard,Neutral,No Ablation,0.7004165427324895,0.3072729514074851
+Qwen/Qwen2.5-3B,Qwen2.5-3B,27,standard,Neutral,Idiomaticity Ablation,0.07935753932437076,0.48416594951180403
+Qwen/Qwen2.5-3B,Qwen2.5-3B,27,standard,Neutral,Random Ablation,-0.06900655593423544,0.5420419945073666
+Qwen/Qwen2.5-3B,Qwen2.5-3B,28,standard,Neutral,No Ablation,0.6900655593423544,0.3086066999241839
+Qwen/Qwen2.5-3B,Qwen2.5-3B,28,standard,Neutral,Idiomaticity Ablation,0.0862581949177943,0.46948553403344256
+Qwen/Qwen2.5-3B,Qwen2.5-3B,28,standard,Neutral,Random Ablation,-0.04830458915396481,0.5403261801471229
+Qwen/Qwen2.5-3B,Qwen2.5-3B,29,standard,Neutral,No Ablation,0.6969662149357779,0.29752951034109126
+Qwen/Qwen2.5-3B,Qwen2.5-3B,29,standard,Neutral,Idiomaticity Ablation,0.0724568837309472,0.47181261413525494
+Qwen/Qwen2.5-3B,Qwen2.5-3B,29,standard,Neutral,Random Ablation,-0.04830458915396481,0.5403261801471229
+Qwen/Qwen2.5-3B,Qwen2.5-3B,30,standard,Neutral,No Ablation,0.6969662149357778,0.3184037568574724
+Qwen/Qwen2.5-3B,Qwen2.5-3B,30,standard,Neutral,Idiomaticity Ablation,0.03105295017040595,0.48377237858905753
+Qwen/Qwen2.5-3B,Qwen2.5-3B,30,standard,Neutral,Random Ablation,-0.05865557254410012,0.5183651039107292
+Qwen/Qwen2.5-3B,Qwen2.5-3B,31,standard,Neutral,No Ablation,0.6900655593423544,0.3154739442867026
+Qwen/Qwen2.5-3B,Qwen2.5-3B,31,standard,Neutral,Idiomaticity Ablation,0.08970852271450606,0.48751068364361694
+Qwen/Qwen2.5-3B,Qwen2.5-3B,31,standard,Neutral,Random Ablation,-0.05865557254410012,0.522482626733268
+Qwen/Qwen2.5-3B,Qwen2.5-3B,32,standard,Neutral,No Ablation,0.7004165427324897,0.3049394943887972
+Qwen/Qwen2.5-3B,Qwen2.5-3B,32,standard,Neutral,Idiomaticity Ablation,0.06555622813752367,0.45746454455379343
+Qwen/Qwen2.5-3B,Qwen2.5-3B,32,standard,Neutral,Random Ablation,-0.04485426135725303,0.5292739861177314
+Qwen/Qwen2.5-3B,Qwen2.5-3B,33,standard,Neutral,No Ablation,0.6969662149357779,0.29511902360782866
+Qwen/Qwen2.5-3B,Qwen2.5-3B,33,standard,Neutral,Idiomaticity Ablation,0.05865557254410012,0.4244183695140356
+Qwen/Qwen2.5-3B,Qwen2.5-3B,33,standard,Neutral,Random Ablation,-0.04485426135725303,0.5211137340442332
+Qwen/Qwen2.5-3B,Qwen2.5-3B,34,standard,Neutral,No Ablation,0.6935158871390662,0.2971892134170226
+Qwen/Qwen2.5-3B,Qwen2.5-3B,34,standard,Neutral,Idiomaticity Ablation,0.06555622813752367,0.41142898478815226
+Qwen/Qwen2.5-3B,Qwen2.5-3B,34,standard,Neutral,Random Ablation,-0.04140393356054126,0.5261721608534063
+Qwen/Qwen2.5-3B,Qwen2.5-3B,35,standard,Neutral,No Ablation,0.7004165427324897,0.3025880430709777
+Qwen/Qwen2.5-3B,Qwen2.5-3B,35,standard,Neutral,Idiomaticity Ablation,0.09660917830792962,0.44314890542677915
+Qwen/Qwen2.5-3B,Qwen2.5-3B,35,standard,Neutral,Random Ablation,-0.0724568837309472,0.47332411124483653
+Qwen/Qwen2.5-3B,Qwen2.5-3B,36,standard,Neutral,No Ablation,0.02070196678027063,0.6241565737628889
+Qwen/Qwen2.5-3B,Qwen2.5-3B,36,standard,Neutral,Idiomaticity Ablation,0.11041048949477669,0.5981718179666473
+Qwen/Qwen2.5-3B,Qwen2.5-3B,36,standard,Neutral,Random Ablation,0.05865557254410012,0.6048514181972613
