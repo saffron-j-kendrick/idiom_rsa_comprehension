@@ -1,0 +1,54 @@
+## IMPORTS
+
+
+import os
+from transformers import AutoModel, AutoTokenizer, AutoConfig
+import torch
+from transformers import BertModel, BertTokenizer, RobertaModel, RobertaTokenizer, XLNetModel, XLMModel, RobertaConfig, BertConfig
+
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForMaskedLM
+
+## ACCESS TOKEN - ADD TO ENVIRONMENT 
+access_token = os.environ.get('HF_TOKEN_LLAMA')
+
+# dev_model_configs = {'meta-llama/Llama-3.2-3B' : (AutoConfig.from_pretrained("meta-llama/Llama-3.2-3B", token = access_token), AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-3B", token = access_token), AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-3B", token = access_token) , 'meta-llama/Llama-3.2-3B')}
+
+# dev_model_configs = {'mistralai/Mistral-7B-v0.1' : (AutoConfig.from_pretrained("mistralai/Mistral-7B-v0.1", token = access_token), AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-v0.1", token = access_token), AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token = access_token), "mistralai/Mistral-7B-v0.1")}
+
+# dev_model_configs = {"tiiuae/Falcon3-7B-Base": (AutoConfig.from_pretrained("tiiuae/Falcon3-7B-Base"), AutoModelForCausalLM.from_pretrained("tiiuae/Falcon3-7B-Base"), AutoTokenizer.from_pretrained("tiiuae/Falcon3-7B-Base"), "tiiuae/Falcon3-7B-Base")    }
+
+# dev_model_configs = {"Qwen/Qwen2.5-7B" : (AutoConfig.from_pretrained("Qwen/Qwen2.5-7B"), AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-7B"), AutoTokenizer.from_pretrained("Qwen/Qwen2.5-7B"), "Qwen/Qwen2.5-7B")}
+
+# dev_model_configs = {"Qwen/Qwen2.5-3B" : (AutoConfig.from_pretrained("Qwen/Qwen2.5-3B"), AutoModelForCausalLM.from_pretrained("Qwen/Qwen2.5-3B"), AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B"), "Qwen/Qwen2.5-3B")}
+
+# dev_model_configs = {"deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" : (AutoConfig.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"), AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"), AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"), "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")}
+
+# dev_model_configs = {'openai-community/gpt2' : (AutoConfig.from_pretrained("openai-community/gpt2"), AutoModelForCausalLM.from_pretrained("openai-community/gpt2"), AutoTokenizer.from_pretrained("openai-community/gpt2"), 'openai-community/gpt2')}
+
+dev_model_configs = {'openai-community/gpt2-medium': (AutoConfig.from_pretrained("openai-community/gpt2-medium"), AutoModelForCausalLM.from_pretrained("openai-community/gpt2-medium"), AutoTokenizer.from_pretrained("openai-community/gpt2-medium"), "openai-community/gpt2-medium")}
+
+# dev_model_configs = {"google/multiberts-seed_3": (AutoConfig.from_pretrained("google/multiberts-seed_3"), AutoModelForCausalLM.from_pretrained("google/multiberts-seed_3"), AutoTokenizer.from_pretrained("google/multiberts-seed_3"), "google/multiberts-seed_3")}
+
+# dev_model_configs = {"FacebookAI/roberta-base" : (AutoConfig.from_pretrained("FacebookAI/roberta-base"), AutoModelForMaskedLM.from_pretrained("FacebookAI/roberta-base"), AutoTokenizer.from_pretrained("FacebookAI/roberta-base"), "FacebookAI/roberta-base")}
+
+## FUNCTIONS
+
+def load_model(name, all_hidden_states=True):
+    """ Loads model with hidden state outputs """
+    configuration_class, model_class, tokeniser_class, weights = dev_model_configs[name]
+    model, tokeniser = load_model_from_classes(configuration_class, model_class, tokeniser_class, weights, all_hidden_states)
+    return model, tokeniser
+
+def load_model_from_classes(configuration_class, model_class, tokeniser_class, weights, all_hidden_states=True):
+    """ Loads model from classes """
+    config = configuration_class.from_pretrained(weights, output_hidden_states=all_hidden_states)
+    model = model_class.from_pretrained(weights, config=config)
+        
+    tokeniser = tokeniser_class.from_pretrained(weights)
+    
+    return model, tokeniser
+
+
+def load_roberta():
+    """ Test load RoBERTa model """ 
+    return load_model('roberta-base')
