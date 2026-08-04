@@ -1,14 +1,14 @@
 ## IMPORTS
 
-from scipy.stats import pearsonr, kendalltau, spearmanr #type:ignore
-from scipy.spatial.distance import cosine, pdist, squareform, euclidean #type:ignore
-from sklearn.preprocessing import normalize #type:ignore
-from sklearn.model_selection import KFold #type:ignore
-from sklearn.metrics.pairwise import cosine_similarity #type:ignore
-from sklearn.utils import shuffle #type:ignore
-import matplotlib.pyplot as plt #type:ignore
-import numpy as np #type:ignore
-import statsmodels.api as sm #type:ignore
+from scipy.stats import pearsonr, kendalltau, spearmanr 
+from scipy.spatial.distance import cosine, pdist, squareform, euclidean 
+from sklearn.preprocessing import normalize 
+from sklearn.model_selection import KFold
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.utils import shuffle 
+import matplotlib.pyplot as plt 
+import numpy as np 
+import statsmodels.api as sm
 import data_utils
 
 ## FUNCTIONS
